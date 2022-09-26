@@ -160,7 +160,6 @@ while len(compute_list) != 0:
         stack.append(result[0])
         if stack[-1] != ')':
             stack.append(')')
-        print(stack)
         print(result)
         brackets=[]
     else:
